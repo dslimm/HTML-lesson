@@ -9,7 +9,7 @@
 <body>
     <header>
         <div class="contacts">
-            <img class="top_logo" src="images/logo.jpg" width="180" height="38" alt="ООО Пионер">
+            <img class="top_logo" src="images/logo.jpg" alt="ООО Пионер">
             <div class="email">
                 <p>По вопросам и предложениям</p>
                 <a href="mailto:pionerrr@sila.ru" target="blank">mailto:pionerrr@sila.ru</a>
@@ -24,7 +24,7 @@
 
         <div class="menu_section">
             <nav class="top_menu">
-                <ul>
+                <ul class="list1">
                     <li><a href="#">Главная</a></li>
                     <li><a href="#">О предприятии</a></li>
                     <li><a href="#">Новости</a></li>
@@ -35,7 +35,7 @@
                     <li><a href="#">Контакты</a></li>
                 </ul>
             </nav>
-            <img class="img_call"/>
+            <img class="img_call" src="images/phone.png" alt="phone">
             <p class="number_call"><a href="tel:+7(495) 456-24-21" target="blank">ПЕРЕЗВОНИТЕ МНЕ</a></p>
         </div>
     </header>
@@ -100,59 +100,73 @@
 
         <section class="map">
             <h2>Представительства</h2>
-            <img class="map_img" src="" alt=""/>
+            <img class="map_img" src="images/logo.jpg" alt="Карта филиалов"/>
         </section>
 
-        <section class="news">
+        <section class="news_block">
             <h2>Новости</h2>
-            <div>
-                <img class="news1" src="" alt=""/>
-                <p>Текст новости</p>
-                <a href="#">Читать далее</a>
-                <p>Дата</p>
-            </div>
+            <div class="all_news">
+                <div class="news">
+                    <img class="news_img" src="images/logo.jpg" alt="Новость 1"/>
+                    <p class="news_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, vitae!</p>
+                    <div class="date_block">
+                        <a href="#">Читать далее</a>
+                        <p class="date">Дата</p>
+                    </div>
+                </div>
 
-            <div>
-                <img class="news2" src="" alt=""/>
-                <p>Текст новости</p>
-                <a href="#">Читать далее</a>
-                <p>Дата</p>
-            </div>
+                <div class="news">
+                    <img class="news_img" src="images/logo.jpg" alt="Новость 2"/>
+                    <p class="news_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, amet.</p>
+                    <div class="date_block">
+                        <a href="#">Читать далее</a>
+                        <p class="date">Дата</p>
+                    </div>
+                </div>
 
-            <div>
-                <img class="news3" src="" alt=""/>
-                <p>Текст новости</p>
-                <a href="#">Читать далее</a>
-                <p>Дата</p>
-            </div>
+                <div class="news">
+                    <img class="news_img" src="images/logo.jpg" alt="Новость 3"/>
+                    <p class="news_text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam, modi.</p>
+                    <div class="date_block">
+                        <a href="#">Читать далее</a>
+                        <p class="date">Дата</p>
+                    </div>
+                </div>
+        </div>
         </section>
     </main>
 
     <footer>
-        <img class="bottom_logo" src="" alt="">
-        <nav class="bottom_menu1">
-            <ul>
-                <li><a href="#">Главная</a></li>
-                <li><a href="#">О предприятии</a></li>
-                <li><a href="#">Новости</a></li>
-                <li><a href="#">Продукция</a></li>
-                <li><a href="#">Услуги</a></li>
-                <li><a href="#">Поддержка</a>i>
-            </ul>
-        </nav>
-        <nav class="bottom_menu2">
-            <ul>
-                <li><a href="#">Поддержка</a></li>
-                <li><a href="#">Поставки</a></li>
-                <li><a href="#">Контакты</a></li>
-            </ul>
-        </nav>
-        <div>
-            <p>Файлы</p>
-            <p>Поддержка</p>
-            <p>Конфиденциальность</p>
+        <div class="footer_block">
+            <img class="bottom_logo" src="images/logo.jpg" alt="Лого Пионер">
+            <nav class="bottom_menu1">
+                <ul class="list2_1">
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">О предприятии</a></li>
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="#">Продукция</a></li>
+                    <li><a href="#">Услуги</a></li>
+                    <li><a href="#">Поддержка</a></li>
+                </ul>
+            </nav>
+            <nav class="bottom_menu2">
+                <ul class="list2_2">
+                    <li><a href="#">Поддержка</a></li>
+                    <li><a href="#">Поставки</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="dop_info">
+                <ul class="list2_3">
+                    <li><a href="#">Файлы</a></li>
+                    <li><a href="#">Поддержка</a></li>
+                    <li><a href="#">Конфиденциальность</a></li>
+                </ul>
+            </div>
         </div>
-        <span>1994 - 2000 ООО "ПИОНЕР"</span>
+        <div class="footer_bottom">
+            <span>1994 - 2000 ООО "ПИОНЕР"</span>
+        </div>
     </footer>
 </body>
 </html>

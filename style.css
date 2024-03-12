@@ -58,28 +58,30 @@ header {
     display: inline-block;
     margin: 20px 0 0 130px;
 }
-ul {
+.list1 {
     display: flex;
     justify-content: space-around;
     list-style-type: none;
 }
-li {
+.list1 > li {
     margin-right: 20px;
     text-decoration: none;
 }
-li > a {
+.list1 > li > a {
     text-decoration: none;
     color: #000;
   }
-  li > a:hover {
+  .list1 > li > a:hover {
     text-decoration: underline;
     color: #607CE6;
   }
 .img_call {
-    margin-left: auto;
+    margin: 20px 0 0 auto;
+    width: 16px;
+    height: 16px;
 }
 .number_call {
-    margin: 20px 0 0 130px;
+    margin: 20px 0 0 5px;
     text-decoration: none;
     color: #607CE6;
 }
@@ -173,4 +175,110 @@ h3 {
     text-align: left;
     margin-top: 150px;
     padding: 10px;
+}
+.map_img {
+    width: 1050px;
+    height: 440px;
+    margin: 20px 0 0 130px;
+}
+.all_news {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0 0 130px;
+    width: 1050px;
+    height: 480px;
+}
+.news {
+    width: 330px;
+    height: 480px;
+    background: #f5f5f5;
+}
+.news_img {
+    width: 330px;
+    height: 250px;
+}
+.news_text {
+    padding: 15px;
+}
+.date_block {
+    display: flex;
+    margin-top: 100px;
+    padding: 15px;
+}
+.date_block > a {
+    text-align: left;
+    text-decoration: none;
+    color: #607CE6;
+}
+.date_block > a:hover {
+    text-decoration: underline;
+}
+.date {
+    margin-left: auto;
+}
+footer {
+    background-color: #333;
+    height: 360px;
+    margin-top: 50px;
+    color: #fff;
+}
+.footer_block {
+    display: flex;
+}
+.bottom_logo {
+    width: 180px;
+    height: 38px;
+    margin: 50px 0 0 130px;
+}
+.bottom_menu1, .bottom_menu2 {
+    margin-top: 50px;
+}
+.list2_1 > li {
+    margin: 0 50px 0 300px;
+    text-decoration: none;
+    list-style-type: none;
+    padding-bottom: 20px;
+}
+.list2_1 > li > a {
+    text-decoration: none;
+    color: #fff;
+  }
+.list2_1 > li > a:hover {
+    text-decoration: underline;
+    color: #607CE6;
+}
+.list2_2 > li {
+    margin: 0 100px 0 50px;
+    text-decoration: none;
+    list-style-type: none;
+    padding-bottom: 20px;
+}
+.list2_2 > li > a {
+    text-decoration: none;
+    color: #fff;
+  }
+.list2_2 > li > a:hover {
+    text-decoration: underline;
+    color: #607CE6;
+}
+.dop_info {
+    margin-top: 50px;
+}
+.list2_3 > li {
+    margin: 0 100px 0 50px;
+    text-decoration: none;
+    list-style-type: none;
+    padding-bottom: 20px;
+}
+.list2_3 > li > a {
+    text-decoration: none;
+    color: #fff;
+}
+.list2_3 > li > a:hover {
+    text-decoration: underline;
+    color: #607CE6;
+}
+.footer_bottom {
+    text-align: center;
+    margin-top: 50px;
 }
