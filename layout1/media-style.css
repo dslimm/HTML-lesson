@@ -1,0 +1,43 @@
+@media (max-width: 1000px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        max-width: 1100px;
+        font-size: 0.7em;
+        /* margin: 0 auto; */
+
+    }
+    .container, .hero_img, .map_img {
+        max-width: 900px;
+        /* margin: 0 auto; */
+
+    }
+}
+@media (max-width: 768px) {
+    body {
+        max-width: 800px;
+        font-size: 0.9em;
+
+    }
+    .container {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+    .contacts {
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        gap: 20px;
+        justify-content: center;
+
+    }
+    .top_logo {
+        width: 160px;
+        height: 34px;
+    }
+    .email, .numer {
+    text-align: center;
+    }
+
+}
