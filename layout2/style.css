@@ -11,7 +11,7 @@ body {
     margin: 0 auto;
 }
 header {
-    background-image: url("/HTML-16/layout2/images/fon.png");
+    background-image: url("/layout2/images/fon.png");
     background-size: cover;
     color: rgb(129, 111, 111);
 }
