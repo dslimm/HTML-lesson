@@ -11,7 +11,7 @@ body {
     margin: 0 auto;
 }
 header {
-    background-image: url("./images/fon.png");
+    background-image: url("images/fon.png");
     background-size: cover;
     color: rgb(129, 111, 111);
 }
@@ -196,7 +196,7 @@ h3 {
     width: 100%;
 }
 .sect6 {
-    background-image: url("/images/sect6.png");
+    background-image: url("images/sect6.png");
     background-size: cover;
     padding: 8% 5%;
 }
