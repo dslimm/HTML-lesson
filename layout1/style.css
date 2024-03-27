@@ -4,19 +4,21 @@
     box-sizing: border-box;
 }
 body {
-    max-width: 1440px;
+    /* max-width: 1440px; */
+    margin: 0 auto;
     background-color: #fff;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1em;
+    font-size: 1.4vw;
 }
-.container {
+.container, footer {
     max-width: 1180px;
-    margin: 0 auto;
+    margin: 0 7%;
 }
 .contacts {
     display: flex;
+    gap: 10%;
     position: relative;
-    padding: 30px 0;
+    padding: 3% 0;
 }
 .contacts::after {
     content: "";
@@ -29,7 +31,7 @@ body {
 .email {
     text-align: right;
     margin-left: auto;
-    padding-right: 100px;
+    /* padding-right: 10%; */
 }
 .email > a, .number > a {
     text-decoration: none;
@@ -43,12 +45,12 @@ body {
 }
 .menu_section {
     display: flex;
-    padding: 30px 0;
+    padding: 3% 0;
 }
 .list1 {
     display: flex;
     list-style-type: none;
-    gap: 30px;
+    gap: 3%;
 }
 .list1 > li {
     text-decoration: none;
@@ -66,9 +68,9 @@ body {
     margin-left: auto;
   }
 .img_call {
-    width: 16px;
-    height: 16px;
-    padding-right: 5px;
+    /* width: 16px; */
+    height: 50%;
+    padding-right: 2.5%;
 }
 .number_call {
     text-decoration: none;
@@ -83,67 +85,77 @@ body {
 }
 .hero {
     display: flex;
+    width: 100%;
+    gap: 10%;
     flex-wrap: wrap;
-    padding: 30px 0;
+    padding: 3% 0;
 }
 h1 {
-    font-size: 2em;
+    font-size: 3vw;
+    /* width: 100%; */
+
 }
 .hero_text {
-    padding-left: 300px;
+    /* width: 100%; */
+
+    padding-left: 15%;
 }
 .hero_img {
-    width: 1180px;
-    height: 440px;
-    padding: 30px 0;
+    /* height: 440px; */
+    /* object-fit: cover; */
+    /* background-size: cover; */
+    /* margin: 0 10%; */
+    width: 100%;
+    padding: 3% 0;
 }
 h2 {
-    font-size: 1.7em;
-    padding-bottom: 30px;
+    font-size: 2.5vw;
+    padding-bottom: 3%;
 }
 .about_text {
     display: flex;
-    gap: 20px;
+    gap: 10%;
 }
 .about_text1, .about_text2 {
-    max-width: 580px;
+    width: 100%;
     text-align: left;
 }
 .about_img {
     display: flex;
-    gap: 20px;
-    padding: 30px 0;
+    gap: 10%;
+    padding: 3% 0;
 }
 .about_img1 {
-    width: 580px;
-    height: 280px;
+    width: 45%;
+    /* height: 280px; */
 }
 .about_img2 {
-    width: 580px;
-    height: 280px;
+    width: 45%;
+    /* height: 280px; */
 }
 .products {
-    padding: 30px 0;
+    padding: 3% 0;
 }
 .all_products {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 20px;
+    gap: 2.5%;
 }
 .product {
-    width: 380px;
-    height: 435px;
+    width: 100%;
+    /* height: 435px; */
     background: #f5f5f5;
+    padding-bottom: 10%;
 }
 .product_img {
     width: 200px;
     height: 158px;
-    padding: 30px 0 0 30px;
+    padding: 10% 0 0 10%;
 }
 .product > a {
     text-align: left;
-    padding-left: 30px;
+    padding: 0 0 10% 10%;
     text-decoration: none;
     color: #607CE6;
 }
@@ -151,37 +163,40 @@ h2 {
     text-decoration: underline;
 }
 h3 {
-    font-size: 1.3em;
-    padding: 150px 0 30px 30px;
+    font-size: 1.8vw;
+    padding: 40% 0 10% 10%;
 }
 .map {
-    padding: 30px 0;
+    padding: 3% 0;
 }
 .map_img {
-    width: 1180px;
-    height: 715px;
+    width: 100%;
+    /* height: 715px; */
 }
 .news_block {
-    padding: 30px 0;
+    padding: 3% 0;
 }
 .all_news {
     display: flex;
-    gap: 20px;
+    gap: 2%;
 }
 .news {
-    width: 380px;
+    width: 100%;
+    /* width: 380px; */
+    /* height: 450px; */
     background: #f5f5f5;
 }
 .news_img {
-    width: 380px;
-    height: 251px;
+    width: 100%;
+    /* width: 380px; */
+    /* height: 251px; */
 }
 .news_text {
-    padding: 20px;
+    padding: 5%;
 }
 .date_block {
     display: flex;
-    padding: 50px 20px 20px 20px;
+    padding: 15% 5% 5% 5%;
 }
 .date_block > a {
     text-decoration: none;
@@ -194,8 +209,9 @@ h3 {
     margin-left: auto;
 }
 footer {
+    /* width: 100%; */
     background-color: #333;
-    margin-top: 40px;
+    margin-top: 4%;
     color: #fff;
 }
 .footer_block {
@@ -204,19 +220,19 @@ footer {
 }
 .bottom_logo {
     position: absolute;
-    padding: 60px 0 0 100px;
+    padding: 5.5% 0 0 9%;
 }
 .bottom_menu1 {
     margin-left: auto;
-    padding: 60px 100px 0 0px;
+    padding: 5.5% 9% 0 0px;
 }
 .bottom_menu2 {
-    padding: 60px 100px 0 0px;
+    padding: 5.5% 9% 0 0px;
 }
 .list2_1 > li, .list2_2 > li, .list2_3 > li {
     text-decoration: none;
     list-style-type: none;
-    padding-bottom: 20px;
+    padding-bottom: 17%;
 }
 .list2_1 > li > a, .list2_2 > li > a, .list2_3 > li > a {
     text-decoration: none;
@@ -227,9 +243,9 @@ footer {
     color: #607CE6;
 }
 .bottom_menu3 {
-    padding: 60px 150px 0 0;
+    padding: 5.5% 9% 0 0;
 }
 .footer_bottom {
     text-align: center;
-    padding: 150px 0 50px 0;
+    padding: 14% 0 5% 0;
 }
